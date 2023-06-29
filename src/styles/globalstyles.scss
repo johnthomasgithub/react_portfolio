@@ -10,6 +10,10 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  height: 100%;
+  width: 100%;
+}
 
 /* custom scroll bar */
 ::-webkit-scrollbar {
@@ -25,6 +29,8 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+@import url('../components/Navbar/navbar.scss');
 
 /* all similar content styling codes */
 section {
@@ -80,4 +86,9 @@ section .title::after {
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
+}
+
+.landing {
+  height: 100%;
+  width: 100%;
 }

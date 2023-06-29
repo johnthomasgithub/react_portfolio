@@ -1,9 +1,5 @@
 import Landing from './components/Landing'
-import './styles/styles.css'
+import './styles/globalstyles.scss'
 export const App = () => {
-  return (
-    <>
-      <Landing />
-    </>
-  )
+  return <Landing />
 }
