@@ -7,7 +7,9 @@
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
     "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "React",
@@ -19,8 +21,13 @@
   "author": "Vishwas",
   "license": "MIT",
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.7.6",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -44,6 +51,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.1.0",
     "husky": "4",
     "lint-staged": "^10.5.4",
@@ -51,7 +59,7 @@
     "react-refresh": "^0.9.0",
     "style-loader": "^2.0.0",
     "typescript": "^4.1.5",
-    "webpack": "^5.21.2",
+    "webpack": "^5.88.1",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^4.15.1",
     "webpack-merge": "^5.7.3"

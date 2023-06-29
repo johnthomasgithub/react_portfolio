@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Resume from '../Assets/pdf/Resume.pdf'
+import Profile from '../Assets/images/Profile.JPG'
 const Landing = () => {
   return (
     <div>
@@ -53,7 +55,7 @@ const Landing = () => {
             <div className="text-1">Hello, my name is</div>
             <div className="text-2">John Thomas</div>
             <div className="text-3">
-              And I&quot;m a <span className="typing"></span>
+              And I&apos;m a <span className="typing"></span>
             </div>
             <a href="#">Hire me</a>
           </div>
@@ -66,21 +68,21 @@ const Landing = () => {
           <h2 className="title">About me</h2>
           <div className="about-content">
             <div className="column left">
-              <img src="images/profile-1.jpeg" alt="" />
+              <img src={Profile} alt="Profile" />
             </div>
             <div className="column right">
               <div className="text">
-                I&quot;m John and I&quot;m a <span className="typing-2"></span>
+                I&apos;m John and I&apos;m a <span className="typing-2"></span>
               </div>
               <p>
-                I&quot;m an Enthusiastic software designer and developer with
+                I&apos;m an Enthusiastic software designer and developer with
                 awesome skills. I always coming up with innovative ideas.I use a
                 creative approach to problem solve.I’m a nice fun and friendly
                 person.I am willing to learn new skills and have many existing
                 ones to offer.I am a quick to learn and willing to adapt to any
                 job.
               </p>
-              <a href="images/Job Application.pdf" download="jobApplication">
+              <a href={Resume} download="jobApplication">
                 Download CV
               </a>
             </div>
