@@ -57,7 +57,7 @@ const Landing = () => {
             <div className="text-3">
               And I&apos;m a <span className="typing"></span>
             </div>
-            <a href="#">Hire me</a>
+            <a href="#contact">Hire me</a>
           </div>
         </div>
       </section>
@@ -75,12 +75,15 @@ const Landing = () => {
                 I&apos;m John and I&apos;m a <span className="typing-2"></span>
               </div>
               <p>
-                I&apos;m an Enthusiastic software designer and developer with
-                awesome skills. I always coming up with innovative ideas.I use a
-                creative approach to problem solve.I’m a nice fun and friendly
-                person.I am willing to learn new skills and have many existing
-                ones to offer.I am a quick to learn and willing to adapt to any
-                job.
+                I am a highly skilled and experienced React.js developer with 2
+                years of professional expertise. With a strong foundation in
+                front-end development and a deep understanding of React&apos;s
+                core concepts, I have successfully delivered robust and scalable
+                web applications. I possess a keen eye for detail and a passion
+                for crafting elegant and intuitive user interfaces. Alongside my
+                technical proficiency, I am a collaborative team player who
+                thrives in fast-paced environments, making me a valuable asset
+                to any development project.
               </p>
               <a href={Resume} download="jobApplication">
                 Download CV
@@ -98,13 +101,14 @@ const Landing = () => {
             <div className="column left">
               <div className="text">My creative skills & experiences.</div>
               <p>
-                Iam a I am a dedicated, organized and methodical individual. I
-                have good interpersonal skills, am an excellent team worker and
-                am keen and very willing to learn and develop new skills. I am
-                reliable and dependable and often seek new responsibilities
-                within a wide range of employment areas. I have an active and
-                dynamic approach to work and getting things done. I am
-                determined and decisive. I identify and develop opportunities.
+                As a React.js Developer with expertise in HTML, JavaScript,
+                Webpack, CSS, Redux, and Bootstrap, I bring a comprehensive
+                skill set to deliver robust and scalable web applications. With
+                a solid understanding of front-end development principles and
+                experience in building efficient user interfaces, I am
+                well-equipped to contribute to dynamic and engaging projects.
+                Additionally, my familiarity with Flutter enables me to explore
+                cross-platform mobile development possibilities.
               </p>
               <a href="https://github.com/johnthomasgithub">Read more</a>
             </div>
@@ -112,23 +116,47 @@ const Landing = () => {
               <div className="info">
                 <span>HTML</span>
               </div>
-              {/* <!-- <div className="line html"></div> --> */}
               <div className="info">
                 <span>CSS</span>
               </div>
-              {/* <!-- <div className="line css"></div> --> */}
+              <div className="info">
+                <span>Scss</span>
+              </div>
+              <div className="info">
+                <span>Ajax</span>
+              </div>
               <div className="info">
                 <span>Bootstrap</span>
               </div>
-              {/* <!-- <div className="line js"></div> --> */}
               <div className="info">
                 <span>JavaScript</span>
               </div>
-              {/* <!-- <div className="line php"></div> --> */}
+              <div className="info">
+                <span>React Js</span>
+              </div>
               <div className="info">
                 <span>Flutter</span>
               </div>
-              {/* <!-- <div className="line mysql"></div> --> */}
+              <div className="info">
+                <span>Gatsby</span>
+              </div>
+              <div className="info">
+                <span>Webpack</span>
+              </div>
+              <div className="info">
+                <span>Redux</span>
+              </div>
+
+              <div className="info">
+                <span>jQuery</span>
+              </div>
+
+              <div className="info">
+                <span>Tailwind</span>
+              </div>
+              <div className="info">
+                <span>Firebase</span>
+              </div>
             </div>
           </div>
         </div>
